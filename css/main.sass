@@ -1,0 +1,32 @@
+@import variables
+
+*
+  margin: 0
+  padding: 0
+  list-style: none
+  text-decoration: none
+
+body
+  background-color: $background-color
+
+header
+  background-color: $header-color
+  font-family: "Josefin Sans", sans-serif
+  .logo
+    margin: 15px 0
+  nav
+    padding: 0px
+    ul li
+      display: inline-block
+      margin: 20px 0 10px 0
+      font-size: 1.5em
+      width: 32%
+      text-align: center
+      a
+        padding: 10px 10px
+        border-radius: 20%
+        color: $menu-btn-color-primary
+        &:hover
+          background-color: $menu-btn-color-primary
+          color: $menu-btn-color-secondary
+          text-decoration: none

@@ -1,4 +1,5 @@
 # ignore al sass files
-*.sass
+*.css
 *.sassc
 *.map
+.*
