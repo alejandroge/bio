@@ -22,7 +22,7 @@ header {
       text-align: center; }
       header nav ul li a {
         padding: 10px 10px;
-        border-radius: 20%;
+        border-radius: 5%;
         color: #2D728F; }
         header nav ul li a:hover {
           background-color: #2D728F;
