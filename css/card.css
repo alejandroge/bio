@@ -47,7 +47,7 @@
         .card .full-body .text-body .info {
           text-align: center;
           font-size: 2.5rem; } }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 768px) {
         .card .full-body .text-body .info {
           border: none;
           text-align: center; } }
@@ -66,7 +66,7 @@
         .card .full-body .text-body .mail-lines {
           text-align: center;
           font-size: 2.5rem; } }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 768px) {
         .card .full-body .text-body .mail-lines {
           border: none; } }
 
@@ -97,5 +97,8 @@
   font-family: "Dancing Script", cursive;
   font-size: 5rem;
   font-weight: bolder; }
+  @media (max-width: 767px) {
+    .icon-text {
+      margin-top: 100px; } }
 
 /*# sourceMappingURL=card.css.map */
