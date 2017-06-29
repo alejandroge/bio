@@ -24,7 +24,7 @@
       font-size: 1.5rem;
       font-weight: bold;
       border-bottom: 3px solid #DD7596; }
-      @media (min-width: 768px) and (max-width: 991px) {
+      @media screen and (min-width: 768px) and (max-width: 991px) {
         .card .full-body .banner .description {
           font-size: 3rem; } }
   .card .full-body .text-body {
@@ -43,7 +43,7 @@
         .card .full-body .text-body .info {
           text-align: center;
           border: none; } }
-      @media (min-width: 768px) and (max-width: 991px) {
+      @media screen and (min-width: 768px) and (max-width: 991px) {
         .card .full-body .text-body .info {
           text-align: center;
           font-size: 2.5rem; } }
@@ -62,7 +62,7 @@
       @media screen and (min-width: 992px) and (max-width: 1199px) {
         .card .full-body .text-body .mail-lines {
           border: none; } }
-      @media (min-width: 768px) and (max-width: 991px) {
+      @media screen and (min-width: 768px) and (max-width: 991px) {
         .card .full-body .text-body .mail-lines {
           text-align: center;
           font-size: 2.5rem; } }
@@ -97,10 +97,10 @@
   font-family: "Dancing Script", cursive;
   font-size: 5rem;
   font-weight: bolder; }
-  @media (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     .icon-text {
       margin-top: 100px; } }
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media screen and (min-width: 768px) and (max-width: 991px) {
     .icon-text {
       margin: 0px; } }
 
