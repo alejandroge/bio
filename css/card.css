@@ -36,6 +36,10 @@
       line-height: 25px;
       text-align: justify;
       border-bottom: 2px solid #5EDCFF; }
+      @media screen and (max-width: 480px) {
+        .card .full-body .text-body .info {
+          border: none;
+          text-align: center; } }
     .card .full-body .text-body .mail-lines {
       width: 90%;
       margin: auto;
@@ -44,6 +48,9 @@
       border-bottom: 2px solid #5EDCFF; }
       .card .full-body .text-body .mail-lines a:hover {
         text-decoration: none; }
+      @media screen and (max-width: 480px) {
+        .card .full-body .text-body .mail-lines {
+          border: none; } }
 
 .icons {
   margin-top: 100px; }

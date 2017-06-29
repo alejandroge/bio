@@ -39,6 +39,9 @@
         line-height: 25px
         text-align: justify
         border-bottom: 2px solid $card-text-lines-color
+        @media screen and (max-width: $break-xs)
+          border: none
+          text-align: center
       .mail-lines
         width: 90%
         margin: auto
@@ -47,6 +50,8 @@
         border-bottom: 2px solid $card-text-lines-color
         a:hover
           text-decoration: none
+        @media screen and (max-width: $break-xs)
+          border: none
 
 .icons
   margin-top: 100px
