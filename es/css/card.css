@@ -1,0 +1,107 @@
+.card .full-body {
+  margin-top: 30px; }
+  .card .full-body .banner {
+    position: relative; }
+    .card .full-body .banner .photo {
+      border-radius: 50%;
+      background-image: url(../images/PP.png);
+      background-size: 150px 150px;
+      background-repeat: no-repeat;
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      margin-left: -75px;
+      z-index: 1; }
+    .card .full-body .banner .description {
+      position: relative;
+      top: 75px;
+      text-align: center;
+      background-color: #ffffff;
+      padding-top: 85px;
+      padding-bottom: 10px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      border-bottom: 3px solid #DD7596; }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .card .full-body .banner .description {
+          font-size: 3rem; } }
+  .card .full-body .text-body {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    top: 75px;
+    background-color: #ffffff; }
+    .card .full-body .text-body .info {
+      width: 90%;
+      margin: auto;
+      line-height: 25px;
+      text-align: justify;
+      border-bottom: 2px solid #5EDCFF; }
+      @media screen and (min-width: 992px) and (max-width: 1199px) {
+        .card .full-body .text-body .info {
+          text-align: center;
+          border: none; } }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .card .full-body .text-body .info {
+          text-align: center;
+          font-size: 2.5rem; } }
+      @media screen and (max-width: 767px) {
+        .card .full-body .text-body .info {
+          border: none;
+          text-align: center; } }
+    .card .full-body .text-body .mail-lines {
+      width: 90%;
+      margin: auto;
+      line-height: 25px;
+      text-align: center;
+      border-bottom: 2px solid #5EDCFF; }
+      .card .full-body .text-body .mail-lines a:hover {
+        text-decoration: none; }
+      @media screen and (min-width: 992px) and (max-width: 1199px) {
+        .card .full-body .text-body .mail-lines {
+          border: none; } }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .card .full-body .text-body .mail-lines {
+          text-align: center;
+          font-size: 2.5rem; } }
+      @media screen and (max-width: 767px) {
+        .card .full-body .text-body .mail-lines {
+          border: none; } }
+
+.icons {
+  margin-top: 100px; }
+  .icons .icon {
+    width: 87px;
+    height: 87px;
+    margin-bottom: 5px;
+    background-size: 75px 75px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-color: white; }
+    .icons .icon:nth-child(1) {
+      background-image: url(../svg/facebook.svg); }
+    .icons .icon:nth-child(2) {
+      background-image: url(../svg/github.svg); }
+    .icons .icon:nth-child(3) {
+      background-image: url(../svg/linkedin.svg); }
+    .icons .icon:nth-child(4) {
+      background-image: url(../svg/twitter.svg); }
+
+.icon-text {
+  margin-top: 185px;
+  text-align: right;
+  color: #ffffff;
+  font-family: "Dancing Script", cursive;
+  font-size: 5rem;
+  font-weight: bolder; }
+  @media screen and (max-width: 767px) {
+    .icon-text {
+      margin-top: 100px; } }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .icon-text {
+      margin: 0px; } }
+
+/*# sourceMappingURL=card.css.map */
