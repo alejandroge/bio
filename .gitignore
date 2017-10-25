@@ -2,3 +2,4 @@
 *.sassc
 *.map
 .*
+.sass-cache/
