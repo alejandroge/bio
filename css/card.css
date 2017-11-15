@@ -37,7 +37,7 @@
       width: 90%;
       margin: auto;
       line-height: 25px;
-      text-align: justify;
+      text-align: center;
       border-bottom: 2px solid #5EDCFF; }
       @media screen and (min-width: 992px) and (max-width: 1199px) {
         .card .full-body .text-body .info {
@@ -81,13 +81,13 @@
     background-position: center;
     border-radius: 50%;
     background-color: white; }
-    .icons .icon:nth-child(1) {
+    .icons .icon:nth-child(1) div{
       background-image: url(../svg/facebook.svg); }
-    .icons .icon:nth-child(2) {
+    .icons .icon:nth-child(2) div{
       background-image: url(../svg/github.svg); }
-    .icons .icon:nth-child(3) {
+    .icons .icon:nth-child(3) div{
       background-image: url(../svg/linkedin.svg); }
-    .icons .icon:nth-child(4) {
+    .icons .icon:nth-child(4) div{
       background-image: url(../svg/twitter.svg); }
 
 .icon-text {
