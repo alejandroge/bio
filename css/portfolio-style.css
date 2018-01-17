@@ -1,0 +1,76 @@
+.explain {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.feed {
+  padding-right: 5px;
+}
+
+.card {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  position: relative;
+  right: 15px;
+  padding: 0px;
+}
+
+.card img {
+  display: block;
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  box-shadow: -1px 1px 5px 1px black;
+}
+
+.card .overlay {
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255,255,255, 0.9);
+}
+
+.card .overlay h2 {
+  font-size: 3rem;
+  margin-top: 150px;
+} .card .overlay .date {
+  font-size: 1.5rem;
+} .card .overlay .article-body {
+  font-size: 2rem;
+  margin-left: 50px;
+  margin-right: 50px;
+} .card .overlay .link {
+  margin-top: 30px;
+}.card .overlay .link a{
+  font-size: 2rem;
+  line-height: 2rem;
+  background-color: #00BFB3;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid white;
+} .card .overlay .link a:hover{
+  background-color: lightgreen;
+  text-decoration: none;
+} .card .overlay .link a:visited,
+  .card .overlay .link a:active {
+  text-decoration: none;
+}
+
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=blog-styles.css.map */
